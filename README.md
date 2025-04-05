@@ -29,6 +29,7 @@ This project uses the [Unofficial Kinopoisk API](https://kinopoiskapiunofficial.
 <div>
   <img src="screenshots/register.png" width="200"/>
   <img src="screenshots/login.png" width="200"/>
+  <img src="screenshots/profile.png" width="200"/>
 </div>
 <div>
   <img src="screenshots/popular.png" width="200"/>
