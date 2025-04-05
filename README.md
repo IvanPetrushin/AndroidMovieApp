@@ -1,14 +1,40 @@
-# Android app with list of movies and their description.
-API - [kinopoisk](https://kinopoiskapiunofficial.tech/).
+# 🎬 Android Movie App
 
-![Register](screenshots/register.png)
+An Android application that displays a list of movies with detailed information. Users can sign up, log in, add movies to their favorites, and explore movie details. The app fetches data from the unofficial Kinopoisk API.
 
-![Login](screenshots/login.png)
+## Features
 
-![Populars](screenshots/popular.png)
+- User registration and authentication  
+- List of popular movies  
+- Detailed movie descriptions  
+- Add movies to favorites  
+- Network error handling  
 
-![Description](screenshots/film_info.png)
+## Stack
 
-![Favourites](screenshots/starred.png)
+- **Language**: Kotlin  
+- **Architecture**: MVVM     
+- **Networking**: Retrofit  
+- **Local Storage**: Room  
+- **Authentication & Cloud Storage**: Firebase Auth + Firestore  
+- **Dependency Injection**: Hilt  
+- **Asynchronous Operations**: Coroutines + Flow  
 
-![Network error](screenshots/network_error.png)
+## API
+
+This project uses the [Unofficial Kinopoisk API](https://kinopoiskapiunofficial.tech/).
+
+## Screenshots
+
+<div>
+  <img src="screenshots/register.png" width="200"/>
+  <img src="screenshots/login.png" width="200"/>
+</div>
+<div>
+  <img src="screenshots/popular.png" width="200"/>
+  <img src="screenshots/starred.png" width="200"/>
+</div>
+<div>
+  <img src="screenshots/film_info.png" width="200"/>
+  <img src="screenshots/network_error.png" width="200"/
+</div>
