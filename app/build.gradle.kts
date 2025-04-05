@@ -63,6 +63,7 @@ dependencies {
 
     implementation("com.google.dagger:hilt-android:2.48")
     implementation("androidx.test:core-ktx:1.5.0")
+    implementation("com.google.firebase:firebase-firestore-ktx:25.1.3")
     ksp("com.google.dagger:hilt-compiler:2.48")
 
     implementation("androidx.room:room-ktx:2.6.1")
