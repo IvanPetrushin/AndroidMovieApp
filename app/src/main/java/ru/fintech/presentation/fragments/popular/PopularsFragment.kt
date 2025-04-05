@@ -92,6 +92,9 @@ class PopularsFragment : Fragment() {
             binding.bottomNavigation.favouritesButton.setOnClickListener {
                 it.findNavController().navigate(R.id.action_popularsFragment_to_favouritesFragment)
             }
+            binding.bottomNavigation.profileButton.setOnClickListener {
+                it.findNavController().navigate(R.id.action_popularsFragment_to_profileFragment)
+            }
 
         }
     }

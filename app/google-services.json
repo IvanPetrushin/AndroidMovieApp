@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "548933312864",
+    "firebase_url": "https://healthcareapp-34ad0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "healthcareapp-34ad0",
+    "storage_bucket": "healthcareapp-34ad0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548933312864:android:df813b47be423a473cfe05",
+        "android_client_info": {
+          "package_name": "com.petrushin.healthCare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYoY0GvAaaqMi_FVPfoZIVrB0gBGWLl8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548933312864:android:847bae686f64b52d3cfe05",
+        "android_client_info": {
+          "package_name": "ru.fintech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYoY0GvAaaqMi_FVPfoZIVrB0gBGWLl8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

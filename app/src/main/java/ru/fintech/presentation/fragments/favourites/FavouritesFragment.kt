@@ -65,6 +65,9 @@ class FavouritesFragment : Fragment() {
             binding.bottomNavigation.popularsButton.setOnClickListener {
                 it.findNavController().navigate(R.id.action_favouritesFragment_to_popularsFragment)
             }
+            binding.bottomNavigation.profileButton.setOnClickListener {
+                it.findNavController().navigate(R.id.action_favouritesFragment_to_profileFragment)
+            }
 
             binding.recyclerView.adapter = adapter
         }

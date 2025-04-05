@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_popularsFragment_to_favouritesFragment"
             app:destination="@id/favouritesFragment" />
+        <action
+            android:id="@+id/action_popularsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
         android:id="@+id/filmCardFragment"
@@ -33,5 +36,21 @@
         <action
             android:id="@+id/action_favouritesFragment_to_filmCardFragment"
             app:destination="@id/filmCardFragment" />
+        <action
+            android:id="@+id/action_favouritesFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.fintech.presentation.fragments.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile">
+    <action
+        android:id="@+id/action_profileFragment_to_favouritesFragment"
+        app:destination="@id/favouritesFragment" />
+    <action
+        android:id="@+id/action_profileFragment_to_popularsFragment"
+        app:destination="@id/popularsFragment" />
     </fragment>
 </navigation>
