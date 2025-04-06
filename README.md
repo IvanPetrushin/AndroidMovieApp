@@ -1,4 +1,4 @@
-# 🎬 Android Movie App
+# 🎬 Android Movie App (Полностью сплагиаченное приложение для того, чтобы сдать зачет по андроиду)
 
 An Android application that displays a list of movies with detailed information. Users can sign up, log in, add movies to their favorites, and explore movie details. The app fetches data from the unofficial Kinopoisk API.
 
